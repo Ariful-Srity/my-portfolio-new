@@ -37,8 +37,8 @@ function NavBar() {
       expand="md"
       className={navColour ? "sticky" : "navbar"}
     >
-      <Container>
-        <Navbar.Brand href="/" className="d-flex text-primary ">
+      <Container className="mb-5">
+        <Navbar.Brand href="/" className="d-flex text-primary  ">
           <h1>MD.Ariful Hasan</h1>
         </Navbar.Brand>
         <Navbar.Toggle
@@ -72,7 +72,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/project"
+                to="/projects"
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineFundProjectionScreen
@@ -98,6 +98,14 @@ function NavBar() {
                 to="/Contact"
               >
                 <ImBlog style={{ marginBottom: "2px" }} /> Contact
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/Blogs"
+              >
+                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
               </Nav.Link>
             </Nav.Item>
 

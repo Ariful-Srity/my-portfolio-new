@@ -93,7 +93,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #be50f4 !important;
+  background-color: #cf96eb !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -158,7 +158,7 @@ button:focus {
 }
 
 .navbar-nav .nav-link {
-  color: rgb(243, 184, 184) !important;
+  color: rgb(133, 227, 55) !important;
   padding-right: 1rem !important;
   padding-left: 1rem !important;
 }
