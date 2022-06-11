@@ -11,13 +11,13 @@ function Footer() {
   let date = new Date();
   let year = date.getFullYear();
   return (
-    <Container fluid className="footer">
+    <Container fluid className="footer mt-5 ">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Soumyajit Behera</h3>
+          <h3>Designed and Developed by MD.Ariful Hasan</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} SB</h3>
+          <h3>Copyright © {year} Ariful Hasan Ontor</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
@@ -25,7 +25,7 @@ function Footer() {
               <a
                 href="https://github.com/soumyajit4419"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillGithub />
@@ -35,7 +35,7 @@ function Footer() {
               <a
                 href="https://twitter.com/Soumyajit4419"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiOutlineTwitter />
@@ -45,7 +45,7 @@ function Footer() {
               <a
                 href="https://www.linkedin.com/in/soumyajit4419/"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
@@ -55,7 +55,7 @@ function Footer() {
               <a
                 href="https://www.instagram.com/s.o.u.m.y.a_j.i.t/"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillInstagram />

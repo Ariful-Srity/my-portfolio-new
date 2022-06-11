@@ -20,6 +20,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import NavBar from './components/Navbar';
+import Contact from './components/Contact/Contact';
 
 function App() {
 
@@ -49,6 +50,7 @@ function App() {
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<ResumeNew />} />
+          <Route path="/Contact" element={<Contact></Contact>}></Route>
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />
